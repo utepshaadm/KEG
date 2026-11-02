@@ -1,4 +1,4 @@
-''' KEG Cipher '''
+'' KEG Cipher '''
 ''' Kolor Encryption Gate '''
 ''' by KryptoMagick (Karl Zander) '''
 
@@ -8,7 +8,7 @@ class KEG:
         self.discard = []
         color = 0
         for x in range(52):
-            if x >= 26 == 0:
+            if x >= 26:
                 color += 1
             self.values[x] = (x, color, x)
 
